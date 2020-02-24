@@ -1,0 +1,276 @@
+        .icone-preto {
+            color: black;
+        }
+        
+        .btn-carousel {
+            padding: px 10px 6px px;
+            border-radius: 10px;
+            color: black;
+        }
+        
+        .navbar {
+            background: #56BAED !important;
+            
+        }
+        
+        .fundo-carrosel {
+            background-color: rgba(248, 238, 238, 0.986);
+        }
+        
+        .texto-carousel {
+            text-align: center;
+        }
+        /* BOTÃO VOLTAR AO TOPO */
+     
+        
+        #myBtn {
+            background: url(http://anicasagrande.com.br/wp-content/uploads/2016/10/back_to_top.png) no-repeat center center;
+            background-image: url(http://anicasagrande.com.br/wp-content/uploads/2016/10/back_to_top.png);
+            background-position-x: center;
+            background-position-y: center;
+            background-size: 40px;
+            display: table-cell;
+            bottom: 66px !important;
+            right: 30px;
+            color: #fff;
+            cursor: pointer;
+            text-align: center;
+            padding: 17px 8PX;
+            padding-top: 17px;
+            padding-right: 8px;
+            padding-bottom: 17px;
+            padding-left: 8px;
+            font-size: 13px;
+            font-weight: bold;
+            text-transform: uppercase;
+            display: block;
+            height: 50px;
+            width: 50px;
+            position: fixed;
+        }
+        
+        #myBtn:hover {
+            background-color: rgb(247, 243, 243);
+            border-radius: 20px;
+        }
+        /* PORTFOLIO CATEGORIA */
+        
+        #portfolio .portfolio-item {
+            right: 0;
+            margin: 0 0 15px;
+        }
+        
+        #portfolio .portfolio-item .portfolio-link {
+            position: relative;
+            display: block;
+            max-width: 400px;
+            margin: 0 auto;
+            cursor: pointer;
+        }
+        
+        #portfolio .portfolio-item .portfolio-link .portfolio-hover {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            -webkit-transition: all ease 0.5s;
+            transition: all ease 0.5s;
+            opacity: 0;
+            background: rgba(254, 209, 54, 0.9);
+        }
+        
+        #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+            opacity: 1;
+        }
+        
+        #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+            font-size: 20px;
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            height: 20px;
+            margin-top: -12px;
+            text-align: center;
+            color: white;
+        }
+        
+        #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+            margin-top: -12px;
+        }
+        
+        #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+        #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+            margin: 0;
+        }
+        
+        #portfolio .portfolio-item .portfolio-caption {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 25px;
+            text-align: center;
+            background-color: #fff;
+        }
+        
+        #portfolio .portfolio-item .portfolio-caption h4 {
+            margin: 0;
+            text-transform: none;
+        }
+        
+        #portfolio .portfolio-item .portfolio-caption p {
+            font-size: 16px;
+            font-style: italic;
+            margin: 0;
+            font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+        }
+        
+        #portfolio * {
+            z-index: 2;
+        }
+        
+        @media (min-width: 767px) {
+            #portfolio .portfolio-item {
+                margin: 0 0 30px;
+            }
+        }
+        
+        .fundo {
+            background-color: rgb(215, 238, 243);
+        }
+        /* Footer */
+        
+        @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+        section {
+            padding: 60px 0;
+        }
+        
+        section .section-title {
+            text-align: center;
+            color: #007b5e;
+            margin-bottom: 50px;
+            text-transform: uppercase;
+        }
+        
+        #footer {
+            background: #56BAED !important;
+        }
+        
+        #footer h5 {
+            padding-left: 10px;
+            border-left: 3px solid #eeeeee;
+            padding-bottom: 6px;
+            margin-bottom: 20px;
+            color: #ffffff;
+        }
+        
+        #footer a {
+            color: #ffffff;
+            text-decoration: none !important;
+            background-color: transparent;
+            -webkit-text-decoration-skip: objects;
+        }
+        
+        #footer ul.social li {
+            padding: 3px 0;
+        }
+        
+        #footer ul.social li a i {
+            margin-right: 5px;
+            font-size: 25px;
+            -webkit-transition: .5s all ease;
+            -moz-transition: .5s all ease;
+            transition: .5s all ease;
+        }
+        
+        #footer ul.social li:hover a i {
+            font-size: 30px;
+            margin-top: -10px;
+        }
+        
+        #footer ul.social li a,
+        #footer ul.quick-links li a {
+            color: #ffffff;
+        }
+        
+        #footer ul.social li a:hover {
+            color: #eeeeee;
+        }
+        
+        #footer ul.quick-links li {
+            padding: 3px 0;
+            -webkit-transition: .5s all ease;
+            -moz-transition: .5s all ease;
+            transition: .5s all ease;
+        }
+        
+        #footer ul.quick-links li:hover {
+            padding: 3px 0;
+            margin-left: 5px;
+            font-weight: 700;
+        }
+        
+        #footer ul.quick-links li a i {
+            margin-right: 5px;
+        }
+        
+        #footer ul.quick-links li:hover a i {
+            font-weight: 700;
+        }
+        
+        @media (max-width:767px) {
+            #footer h5 {
+                padding-left: 0;
+                border-left: transparent;
+                padding-bottom: 0px;
+                margin-bottom: 10px;
+            }
+        }
+        /* DROPDOWN NAVBAR */
+        
+        .dropdown-submenu {
+            position: relative;
+        }
+        
+        .dropdown-submenu>.dropdown-menu {
+            top: 0;
+            right: 100%;
+            margin-top: -10px;
+            margin-left: -200px;
+            -webkit-border-radius: 6px 6px 6px 6px;
+            -moz-border-radius: 6px 6px 6px;
+            border-radius: 6px 6px 6px 6px;
+        }
+        
+        .dropdown-submenu:hover>.dropdown-menu {
+            display: block;
+        }
+        
+        .dropdown-submenu>a:after {
+            display: block;
+            content: " ";
+            float: right;
+            width: 0;
+            height: 0;
+            border-color: transparent;
+            border-style: solid;
+            border-width: 5px 0 5px 5px;
+            border-left-color: #ccc;
+            margin-top: 5px;
+            margin-right: -10px;
+        }
+        
+        .dropdown-submenu:hover>a:after {
+            border-left-color: #fff;
+        }
+        
+        .dropdown-submenu.pull-left {
+            float: none;
+        }
+        
+        .dropdown-submenu.pull-left>.dropdown-menu {
+            left: -100%;
+            margin-left: 10px;
+            -webkit-border-radius: 6px 0 6px 6px;
+            -moz-border-radius: 6px 0 6px 6px;
+            border-radius: 6px 0 6px 6px;
+        }
+
+        

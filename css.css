@@ -1,0 +1,66 @@
+body{
+
+		padding-top: 100px;
+
+		}
+		div{
+
+		border:1px  solid #555;
+		min-height: 0px;
+		
+		}
+
+		#pesquisa{
+
+		background-color: #FFD700;
+		height: 293px;
+		border-radius: 10px;
+		padding-top: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom: 20px;
+		font-family: Helvética;
+
+		}	
+
+		.informacoes{
+		flex: 1 0 auto;
+		}
+
+		#btn-cadastro{
+		border-radius:10px 20px 30px 40px;
+		font-family: Helvética;
+		border-style: 
+
+		}
+
+		#nav-info{
+		text-align: center;
+		padding-top: 10px;
+		font-family: Helvética;
+		border-bottom: 1px solid #767A7A;
+
+		}
+		
+		#linhaNome{
+		height: 70px;
+
+		}
+
+		#separar{
+		padding-top: 0px; 
+		padding-bottom: 10px;
+
+		}
+		
+		#mapa{
+		height: 150px;
+
+		}
+
+		#nome{
+		font-size: 30px ;
+		font-family:Helvética;
+
+
+		}
